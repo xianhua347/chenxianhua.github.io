@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小菜鸟博客</title>
+    <link>https://xianhua347/blog/</link>
+    <description>Recent content on 小菜鸟博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 02 Mar 2021 15:03:55 +0800</lastBuildDate><atom:link href="https://xianhua347/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试1</title>
+      <link>https://xianhua347/blog/post/first/</link>
+      <pubDate>Tue, 02 Mar 2021 15:03:55 +0800</pubDate>
+      
+      <guid>https://xianhua347/blog/post/first/</guid>
+      <description>javascrpit介绍  JavaScript是动态语言 JavaScript是脚本语言 JavaScript集成在浏览器中  </description>
+    </item>
+    
+    <item>
+      <title>变量声明</title>
+      <link>https://xianhua347/blog/post/%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E/</link>
+      <pubDate>Tue, 02 Mar 2021 14:58:17 +0800</pubDate>
+      
+      <guid>https://xianhua347/blog/post/%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E/</guid>
+      <description>var、let、const 的区别 1、var 声明的变量会挂载在 window 对象上，而 let 和 const 声明的变量不会 举例：
+var a = &amp;#39;我是a&amp;#39;; console.log(a); // 打印结果：我是a console.log(window.a); // 打印结果：我是a let b = &amp;#39;我是b&amp;#39;; console.log(b); // 打印结果：我是b console.log(window.b); // 打印结果：undefined let c = &amp;#39;我是c&amp;#39;; console.log(c); // 打印结果：我是c console.log(window.b); // 打印结果：undefined var 的这一特性，会造成 window 全局变量的污染。举例如下：
+var innerHeight = 100; console.log(window.innerHeight); // 打印结果：永远都是100 ==&amp;gt; 会覆盖 window 自带的 innerHeight 属性 2、var 声明的变量存在变量提升，let 和 const 声明的变量不存在变量提升 举例：(先使用，再声明)
+console.log(a); // 打印结果：undefined ==&amp;gt; a已经声明但没有赋值 var a = &amp;#39;我是a&amp;#39;; console.</description>
+    </item>
+    
+  </channel>
+</rss>
